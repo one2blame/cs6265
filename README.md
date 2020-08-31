@@ -1,7 +1,7 @@
 # cs6265
 
 This class is an intense, hands-on security laboratory. As a student, I
-practiced reverse engineering to discovery security vulnerabilities in
+practiced reverse engineering to discover security vulnerabilities in
 executable files. This course covers the use of advanced techniques to write
 exploits for different families of vulnerabilities. More documentation will
 come as I continue to digest the content of this course.
