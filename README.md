@@ -1,10 +1,5 @@
 # cs6265
 
-Root repository for CS 6265: Information Security Lab - Reverse Engineering and
-Binary Exploitation
-
-## Summary
-
 This class is an intense, hands-on security laboratory. As a student, I
 practiced reverse engineering to discovery security vulnerabilities in
 executable files. This course covers the use of advanced techniques to write
