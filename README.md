@@ -1,2 +1,21 @@
 # cs6265
-Root repository for CS 6265: Information Security Lab - Reverse Engineering and Binary Exploitation
+
+Root repository for CS 6265: Information Security Lab - Reverse Engineering and
+Binary Exploitation
+
+## Summary
+
+This class is an intense, hands-on security laboratory. As a student, I
+practiced reverse engineering to discovery security vulnerabilities in
+executable files. This course covers the use of advanced techniques to write
+exploits for different families of vulnerabilities. More documentation will
+come as I continue to digest the content of this course.
+
+[Here](https://omscs.gatech.edu/cs-6265-information-security-lab) is the
+official course webpage.
+
+## Labs
+
+The labs submodule contains the class's lab challenges and my solutions. This
+repository is private to uphold the Georgia Institute of Technology
+[Academic Honor Code](https://osi.gatech.edu/content/honor-code).
