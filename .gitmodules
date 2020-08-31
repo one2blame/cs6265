@@ -1,0 +1,3 @@
+[submodule "cs6265-labs"]
+	path = cs6265-labs
+	url = ../cs6265-labs
