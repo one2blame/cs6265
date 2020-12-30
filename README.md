@@ -18,8 +18,8 @@ repository is private to uphold the Georgia Institute of Technology
 ## ctf
 
 The `ctf` folder contains challenges I've completed from various CTFs.
-Currently pretty sparse as I'm more focused on private research and school work
-.
+Currently pretty sparse as I'm more focused on private research and school
+work.
 
 ## heaplab
 
