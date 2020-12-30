@@ -4,6 +4,3 @@
 [submodule "heaplab"]
 	path = heaplab
 	url = ../heaplab
-[submodule "binex-research"]
-	path = binex-research
-	url = ../binex-research
