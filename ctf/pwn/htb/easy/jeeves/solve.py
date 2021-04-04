@@ -4,8 +4,8 @@
 from pwn import *
 
 BINARY = "./jeeves"
-ADDR = "206.189.121.131"
-PORT = 30643
+ADDR = "localhost"
+PORT = 4444
 
 splash()
 elf = context.binary = ELF(BINARY)
