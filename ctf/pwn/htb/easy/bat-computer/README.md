@@ -5,7 +5,7 @@ It's your time to save the world!
 ## Description
 
 ```bash
-[*] '/home/kali/Documents/cs6265/ctf/pwn/htb/easy/bat-computer/batcomputer'
+[*] './batcomputer'
     Arch:     amd64-64-little
     RELRO:    Partial RELRO
     Stack:    No canary found
