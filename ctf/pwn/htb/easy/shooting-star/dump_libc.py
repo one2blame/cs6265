@@ -5,8 +5,8 @@ from pwn import *
 from pwnc.pwnc import get_libc
 
 BINARY = "./shooting_star"
-ADDR = "139.59.176.252"
-PORT = 31216
+ADDR = "138.68.168.137"
+PORT = 30708
 
 splash()
 elf = context.binary = ELF(BINARY)
