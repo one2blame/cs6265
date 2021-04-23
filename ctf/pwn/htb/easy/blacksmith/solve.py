@@ -70,5 +70,6 @@ def solve() -> None:
 
     io.interactive()
 
+
 if __name__ == "__main__":
     solve()
