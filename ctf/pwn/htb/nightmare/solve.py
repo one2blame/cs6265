@@ -5,8 +5,8 @@ from pwn import *
 
 BINARY = "./nightmare"
 LIBC = "./libc.so.6"
-ADDR = "138.68.182.108"
-PORT = 30086
+ADDR = "localhost"
+PORT = 4444
 
 splash()
 elf = context.binary = ELF(BINARY)

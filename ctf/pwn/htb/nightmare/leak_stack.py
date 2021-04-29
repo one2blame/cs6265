@@ -4,8 +4,8 @@
 from pwn import *
 
 BINARY = "./nightmare"
-ADDR = "138.68.182.108"
-PORT = 30086
+ADDR = "localhost"
+PORT = 4444
 
 splash()
 elf = context.binary = ELF(BINARY)
