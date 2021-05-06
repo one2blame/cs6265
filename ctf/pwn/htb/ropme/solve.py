@@ -2,7 +2,6 @@
 
 
 from pwn import *
-from pwnc.pwnc import get_libc
 
 BINARY = "./ropme"
 LIBC = "./libc.so.6"
