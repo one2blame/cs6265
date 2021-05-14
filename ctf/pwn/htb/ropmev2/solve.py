@@ -6,9 +6,9 @@ from pwn import *
 BINARY = "./ropmev2"
 LIBC = "./libc.so.6"
 LD = "./ld-2.27.so"
-ADDR = "178.62.33.210"
+ADDR = "localhost"
 FLAG = "./flag.txt"
-PORT = 30273
+PORT = 4444
 
 splash()
 elf = context.binary = ELF(BINARY)
