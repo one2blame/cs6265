@@ -24,7 +24,7 @@ work.
 ## heaplab
 
 The `heaplab` submodule contains challenges, notes, and solutions for the
-HeapLAB course taught by Max Kemper.
+HeapLAB course taught by Max Kamper.
 
 ## binex-research
 
