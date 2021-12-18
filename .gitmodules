@@ -1,12 +1,6 @@
-[submodule "binex-research"]
-	path = binex-research
-	url = ../binex-research
 [submodule "cs6265-labs"]
 	path = cs6265-labs
 	url = ../cs6265-labs
-[submodule "heaplab"]
-	path = heaplab
-	url = ../heaplab
 [submodule "ctf/pwn/htb-active"]
 	path = ctf/pwn/htb-active
 	url = ../htb-active

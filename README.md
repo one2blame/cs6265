@@ -15,21 +15,3 @@ The labs submodule contains the class's lab challenges and my solutions. This
 repository is private to uphold the Georgia Institute of Technology
 [Academic Honor Code](https://osi.gatech.edu/content/honor-code).
 
-## ctf
-
-The `ctf` folder contains challenges I've completed from various CTFs.
-Currently pretty sparse as I'm more focused on private research and school
-work.
-
-## heaplab
-
-The `heaplab` submodule contains challenges, notes, and solutions for the
-HeapLAB course taught by Max Kamper.
-
-## binex-research
-
-The `binex-research` submodule contains private research, notes, and challenges
-I've been working on as I pursue my Senior Developer certification at my job.
-If you're interested in viewing the contents of this submodule, please contact
-me directly. Otherwise, the contents of this submodule will remain private to
-protect the academic integrity of the certification.
